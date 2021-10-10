@@ -1,0 +1,30 @@
+{
+  "name": "sortedutilsbasedonts",
+  "version": "1.0.0",
+  "description": "sorted util ",
+  "main": "index.js",
+  "scripts": {
+    "start:build": "tsc -w",
+    "start:run": "nodemon build/index.js",
+    "start": "concurrently npm:start:*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iskander-faggod/Sortted-Containers-TS.git"
+  },
+  "keywords": [
+    "sorted",
+    "ts",
+    "js"
+  ],
+  "author": "iskander-faggod",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iskander-faggod/Sortted-Containers-TS/issues"
+  },
+  "homepage": "https://github.com/iskander-faggod/Sortted-Containers-TS#readme",
+  "dependencies": {
+    "concurrently": "^6.3.0",
+    "nodemon": "^2.0.13"
+  }
+}
